@@ -1,0 +1,40 @@
+.connection_container {
+  background-color: white;
+  width: 70%;
+}
+
+.heading_container {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #cac3c3;
+}
+
+.connect_img {
+  width: 9%;
+}
+
+.connection_heading {
+  font-family: "Inter", sans-serif;
+  font-size: 29px;
+  width:90%;
+  letter-spacing: -0.017em;
+}
+
+.search_container {
+  display: flex;
+  align-items: center;
+}
+
+.input_cont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin: 0 0.5rem 0 0.8rem;
+}
+
+.connectors_profile_container {
+  display: block;
+  padding-bottom: 2rem;
+}
+
