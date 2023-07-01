@@ -41,11 +41,14 @@ app.use(require("./router/Achievement/Achievement"));
 app.use(require("./router/Event/event"));
 
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: ["http://localhost:3000","https://angry-pink-goldfish.cyclic.app/"],
   optionsSuccessStatus:200,
   credentials:true,
   
 }
+// app.get('/*', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+// });
 app.use(cors(corsOptions));
 app.listen(PORT,() => {
   console.log(`server is running at ${PORT}`);

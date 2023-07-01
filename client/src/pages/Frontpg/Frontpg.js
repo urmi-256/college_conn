@@ -122,7 +122,7 @@ const Frontpg = () => {
                 items={length1}
                 nav
               >
-                {achievements?.map((achievement, id) => {
+                {achievements.length>0 && achievements.map((achievement, id) => {
                   return (
                     <div className="carousel_item" key={id}>
                       <Card style={{ width: "15rem", height: "20rem" }}>
@@ -168,7 +168,7 @@ const Frontpg = () => {
                 items={length}
                 nav
               >
-                {events?.map((event, id) => {
+                {events.length>0 && events.map((event, id) => {
                     return (
                       <div className="carousel_item" key={id}>
                         <Card style={{ width: "15rem", height: "20rem" }}>
